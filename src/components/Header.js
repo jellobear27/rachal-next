@@ -33,8 +33,8 @@ function Header() {
         </h2>
       </div>
       <div className="hidden md:flex gap-4">
-        {menuList.map((item) => (
-          <div>
+        {menuList.map((item, index) => (
+          <div key={index}>
             <h2
               className="text-white
             hover:border-[1px] border-red-500 rounded-full
