@@ -3,31 +3,32 @@
 import React, { useState } from "react";
 import { HiBars3BottomRight, HiOutlineXMark } from "react-icons/hi2";
 import MenuOverlay from "./MenuOverlay";
+import Link from 'next/link'
 
 function Header() {
   const [toggle, setToggle] = useState(false);
   const menuList = [
     {
-      id: 1,
       title: "HOME",
+      link: "/"
     },
     {
-      id: 1,
       title: "ABOUT",
+      link: "/about"
     },
     {
-      id: 1,
       title: "SERVICES",
+      link: "/services"
     },
     {
-      id: 1,
       title: "CONTACT",
+      link: "/contact"
     },
   ];
   return (
     <div className="flex items- justify-between">
       <div>
-        <h2 className="text-[24px] font-bold text-white">
+        <h2 className="text-[24px] font-bold text-[#0b090a]">
           Rachal
           <span className="text-red-500"> Skeen</span>
         </h2>
@@ -40,17 +41,11 @@ function Header() {
             hover:border-[1px] border-red-500 rounded-full
             text-[15px] px-3 py-1 cursor-pointer"
             >
-              {item.title}
+              <Link href={item.link}>{item.title}</Link>
+              
             </h2>
           </div>
         ))}
-        <h2
-          className="text-white
-            hover:border-[1px] border-red-500 rounded-full
-            text-[15px] px-3 py-1 cursor-pointer hover:bg-gradient-to-r from-red-500 to-red-800"
-        >
-          Hire Me
-        </h2>
       </div>
       <div className="md:hidden">
         {!toggle? <HiBars3BottomRight onClick={()=>setToggle(!toggle)} className="text-white text-[22px]" />
