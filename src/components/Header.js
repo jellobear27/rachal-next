@@ -21,6 +21,10 @@ function Header() {
       link: "/services"
     },
     {
+      title: "ClIENT-PORTAL",
+      link: "/client"
+    },
+    {
       title: "CONTACT",
       link: "/contact"
     },

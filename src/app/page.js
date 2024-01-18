@@ -31,13 +31,13 @@ export default function Home() {
               playsInline
               src="/bg.mp4"
             ></video>
-            <div>
+            <div className="z-50">
               <p className="text-black text-[30px] font-bold -mt-[250px]">Helplful Links</p>
               <HelpfulLinks />
             </div>
           </div>
           <div className="mt-4">
-            <button className="text-white text-[12px] font-bold px-3 pb-2 py-4 bg-red-500 rounded-full border-[2px] border-black hover:border-white">
+            <button className="text-black text-[12px] font-bold px-3 pb-2 py-4 bg-red-500 rounded-full border-[2px] border-black hover:border-white">
               CONTACT ME
             </button>
           </div>

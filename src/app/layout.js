@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
             <Header />
           </div>
           {children}
-          <div className="">Footer goes here!</div>
+          <div className="text-center pb-5 pt-[550px] sticky">Footer goes here!</div>
         </div>
       </body>
     </html>
