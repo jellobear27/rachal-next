@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
             <Header />
           </div>
           {children}
-          <div>Footer goes here!</div>
+          <div className="">Footer goes here!</div>
         </div>
       </body>
     </html>
