@@ -12,11 +12,11 @@ export default function Home() {
         <div className="mb-10">
           {" "}
           {/* Adjusted margin */}
-          <p className="text-[#32536c] font-bold text-[24px]">
+          <p className="text-[#32536c] font-bold text-[28px]">
             Your Financial Growth, Personally Guided
           </p>
           <br></br>
-          <p className="text-[#292a2d] text-[14px] font-bold">
+          <p className="text-[#2a414f] text-[19px] font-serif">
             "Welcome to Rachal Skeen CPA, where personal attention meets
             professional expertise. With 15 years of dedicated experience, I
             specialize in nurturing each client's financial journey with a focus
@@ -55,6 +55,13 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="pb-20"></div>
+      <div className="border-b-2"></div>
+      <div className="pb-10"></div>
+      <p className="text-[#32536c] font-bold text-[28px]">
+            What Rachal Skeen CPA Can Do For You
+          </p>
+      
     </>
   );
 }
