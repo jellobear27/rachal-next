@@ -27,8 +27,8 @@ function Header() {
     },
   ];
   return (
-    <div className="flex items-center justify-between">
-        <div>
+    <div className="flex items-center justify-between border-b-2">
+      <div className="pb-4">
         <Image className="w-20"
           src="/logo.jpeg" // Assuming your logo is named 'logo.png' and located in the public folder
           alt="Logo" // Alt text for your logo
@@ -36,12 +36,13 @@ function Header() {
           height={598} // Adjust height as needed
         />
       </div>
+      
       <div className="hidden md:flex gap-4">
         {menuList.map((item, index) => (
           <div key={index}>
             <h2
               className="text-white bg-[#32536c]
-            hover:border-[1px] border-red-500 rounded-full
+            hover:border-[1px] border-[#68f8f8] rounded-full
             text-[15px] px-3 py-1 cursor-pointer"
             >
               <Link href={item.link}>{item.title}</Link>
