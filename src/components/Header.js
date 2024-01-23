@@ -28,7 +28,7 @@ function Header() {
   ];
   return (
     <div className="flex items-center justify-between border-b-2">
-      <div className="pb-8">
+      <div className="pb-6">
         <Image className="w-20"
           src="/logo.jpeg" // Assuming your logo is named 'logo.png' and located in the public folder
           alt="Logo" // Alt text for your logo
