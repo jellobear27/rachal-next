@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 pt-10 items-center">
-        <div className="mb-10">
+        <div className="mb-20">
           {" "}
           {/* Adjusted margin */}
           <p className="text-[#4fa3a1] font-bold text-[30px]">
@@ -47,7 +47,7 @@ export default function Home() {
       </div>
       <div className="pb-20"></div>
       <div className="border-b-2"></div>
-      <div className="pb-10"></div>
+      <div className="pb-20"></div>
 
       <a id="services"></a>
       <p className="text-[#4fa3a1] font-bold text-[28px]">
@@ -124,7 +124,7 @@ export default function Home() {
       </div>
       <div className="pb-20"></div>
       <div className="border-b-2"></div>
-      <div className="pb-10"></div>
+      <div className="pb-20"></div>
     
       <a id="client"></a>
       <p className="text-[#4fa3a1] font-bold text-[28px]">For Client-Portal Please Follow Instructions:</p>
