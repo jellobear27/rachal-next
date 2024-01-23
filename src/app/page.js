@@ -127,7 +127,7 @@ export default function Home() {
       <div className="pb-20"></div>
     
       <a id="client"></a>
-      <p className="text-[#4fa3a1] font-bold text-[28px]">For Client-Portal Please Follow Instructions:</p>
+      <p className="text-[#4fa3a1] font-bold text-[28px]">For Client-Hub, Please Follow Instructions:</p>
       <div class="max-w-2xl mx-auto my-8 p-6 bg-white rounded-lg shadow-md">
     <h2 class="text-2xl font-semibold text-gray-800 mb-4">Secure File Submission via Dropbox</h2>
     <div class="mb-6">
