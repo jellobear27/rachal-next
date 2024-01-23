@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { DotLottiePlayer, Controls } from "@dotlottie/react-player";
 import animationData from "@/assets/lottie.json";
+import { HiClipboardCheck, HiOutlineCurrencyDollar, HiThumbUp, HiShieldCheck } from "react-icons/hi";
 
 import { HelpfulLinks } from "@/components/HelpfulLinks";
 
@@ -12,7 +13,7 @@ export default function Home() {
         <div className="mb-10">
           {" "}
           {/* Adjusted margin */}
-          <p className="text-[#32536c] font-bold text-[28px]">
+          <p className="text-[#4fa3a1] font-bold text-[30px]">
             Your Financial Growth, Personally Guided
           </p>
           <br></br>
@@ -58,10 +59,83 @@ export default function Home() {
       <div className="pb-20"></div>
       <div className="border-b-2"></div>
       <div className="pb-10"></div>
-      <p className="text-[#32536c] font-bold text-[28px]">
-            What Rachal Skeen CPA Can Do For You
-          </p>
-      
+      <p className="text-[#4fa3a1] font-bold text-[28px]">
+        What Rachal Skeen CPA Can Do For You
+      </p>
+      <br></br>
+
+      <div className="mt-4"></div>
+<div className="grid grid-cols-1 md:grid-cols-2 gap-8"> {/* Use grid layout for responsiveness */}
+  
+  {/* First icon-text pair */}
+  <div className="flex items-center">
+    <HiClipboardCheck size={60} color="#4fa3a1" />
+    <div className="ml-4">
+      <p className="text-[#2a414f] text-[20px] font-bold">
+        Personal Tax Returns
+      </p>
+      <p className="text-[#2a414f]">
+        I prepare and file your tax returns <br />
+        tying together all your income <br />
+        sources through an open discussion
+      </p>
+    </div>
+  </div>
+
+  {/* Second icon-text pair */}
+  <div className="flex items-center">
+    <HiOutlineCurrencyDollar size={60} color="#4fa3a1" />
+    <div className="ml-4">
+      <p className="text-[#2a414f] text-[20px] font-bold">
+        Competitive Rates
+      </p>
+      <p className="text-[#2a414f]">
+        I understand the value of your <br />
+        hard-earned money which is<br />
+        why I've structured my pricing to <br />
+        ensure you receive top-notch <br />
+        service without overstretching your budget. 
+      </p>
+    </div>
+  </div>
+
+  {/* Third icon-text pair */}
+  <div className="flex items-center">
+    <HiThumbUp size={60} color="#4fa3a1" />
+    <div className="ml-4">
+      <p className="text-[#2a414f] text-[20px] font-bold">
+        CPA Prepared from Beginning to End
+      </p>
+      <p className="text-[#2a414f]">
+        As a CPA I don't just crunch numbers <br />
+        I bring a wealth of experience and strategic <br />
+        insight, ensuring that every financial decision <br />
+        is informed, compliant, and tailored to your unique goals.
+      </p>
+    </div>
+  </div>
+
+  {/* Fourth icon-text pair */}
+  <div className="flex items-center">
+    <HiShieldCheck size={60} color="#4fa3a1" />
+    <div className="ml-4">
+      <p className="text-[#2a414f] text-[20px] font-bold">
+        File a Return with Accuracy and Confidence
+      </p>
+      <p className="text-[#2a414f]">
+        Entrust your finances to me, <br />
+        and experience the peace of mind that <br />
+        comes from knowing your financial matters <br />
+        are in the hands of a seasoned professional <br />
+        who's committed to excellence in every detail
+      </p>
+    </div>
+  </div>
+
+</div>
+
+
+
     </>
   );
 }
