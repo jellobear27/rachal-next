@@ -128,45 +128,45 @@ export default function Home() {
     
       <a id="client"></a>
       <p className="text-[#4fa3a1] font-bold text-[28px]">For Client-Hub, Please Follow Instructions:</p>
-      <div class="max-w-2xl mx-auto my-8 p-6 bg-white rounded-lg shadow-md">
-    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Secure File Submission via Dropbox</h2>
-    <div class="mb-6">
-        <h3 class="text-xl font-semibold text-gray-700 mb-2">Step 1: Sign Up for Dropbox</h3>
-        <p class="text-gray-600 mb-2">To ensure the secure and efficient transfer of your important financial documents, we utilize Dropbox. If you do not have a Dropbox account, follow these steps:</p>
-        <ol class="list-decimal list-inside text-[#2a414f] bg-gray-100 rounded p-4">
-            <li>Visit the Dropbox website: <a href="https://www.dropbox.com" class="text-blue-500 hover:text-blue-700">www.dropbox.com</a></li>
+      <div className="max-w-2xl mx-auto my-8 p-6 bg-white rounded-lg shadow-md">
+    <h2 className="text-2xl font-semibold text-gray-800 mb-4">Secure File Submission via Dropbox</h2>
+    <div className="mb-6">
+        <h3 className="text-xl font-semibold text-gray-700 mb-2">Step 1: Sign Up for Dropbox</h3>
+        <p className="text-gray-600 mb-2">To ensure the secure and efficient transfer of your important financial documents, we utilize Dropbox. If you do not have a Dropbox account, follow these steps:</p>
+        <ol className="list-decimal list-inside text-[#2a414f] bg-gray-100 rounded p-4">
+            <li>Visit the Dropbox website: <a href="https://www.dropbox.com" className="text-blue-500 hover:text-blue-700">www.dropbox.com</a></li>
             <li>Click on “Sign up” to create a new account.</li>
             <li>Fill in your details and verify your email address.</li>
         </ol>
     </div>
 
-    <div class="mb-6">
-        <h3 class="text-xl font-semibold text-gray-700 mb-2">Step 2: Accessing Our Shared Dropbox Folder</h3>
-        <p class="text-gray-600 mb-2">After creating your account, you will receive an invitation to join a shared Dropbox folder:</p>
-        <ol class="list-decimal list-inside text-[#2a414f] bg-gray-100 rounded p-4">
+    <div className="mb-6">
+        <h3 className="text-xl font-semibold text-gray-700 mb-2">Step 2: Accessing Our Shared Dropbox Folder</h3>
+        <p className="text-gray-600 mb-2">After creating your account, you will receive an invitation to join a shared Dropbox folder:</p>
+        <ol className="list-decimal list-inside text-[#2a414f] bg-gray-100 rounded p-4">
             <li>Check your email for an invitation from Dropbox.</li>
             <li>Click the invitation link and log in to your Dropbox account.</li>
             <li>Access the shared folder we've created for you.</li>
         </ol>
     </div>
 
-    <div class="mb-6">
-        <h3 class="text-xl font-semibold text-gray-700 mb-2">Step 3: Uploading Your Documents</h3>
-        <p class="text-gray-600">Drag and drop files into the shared folder or use the “Upload files” button:</p>
-        <ul class="list-disc list-inside text-[#2a414f] bg-gray-100 rounded p-4">
+    <div className="mb-6">
+        <h3 className="text-xl font-semibold text-gray-700 mb-2">Step 3: Uploading Your Documents</h3>
+        <p className="text-gray-600">Drag and drop files into the shared folder or use the “Upload files” button:</p>
+        <ul className="list-disc list-inside text-[#2a414f] bg-gray-100 rounded p-4">
             <li>Ensure that all files are correctly named and organized.</li>
         </ul>
     </div>
 
-    <div class="mb-6">
-        <h3 class="text-xl font-semibold text-gray-700 mb-2">Step 4: Security and Privacy</h3>
-        <p class="text-gray-600">Your data's security and privacy are our top priority. Dropbox uses advanced encryption and security measures to protect your information.</p>
+    <div className="mb-6">
+        <h3 className="text-xl font-semibold text-gray-700 mb-2">Step 4: Security and Privacy</h3>
+        <p className="text-gray-600">Your data's security and privacy are our top priority. Dropbox uses advanced encryption and security measures to protect your information.</p>
     </div>
 
     <div>
-        <h3 class="text-xl font-semibold text-gray-700 mb-2">Need Assistance?</h3>
-        <p class="text-gray-600">If you need help with Dropbox, please contact me at <a href="mailto:
-rachalskeencpa@gmail.com" class="text-blue-500 hover:text-blue-700">
+        <h3 className="text-xl font-semibold text-gray-700 mb-2">Need Assistance?</h3>
+        <p className="text-gray-600">If you need help with Dropbox, please contact me at <a href="mailto:
+rachalskeencpa@gmail.com" className="text-blue-500 hover:text-blue-700">
 rachalskeencpa@gmail.com</a>.</p>
     </div>
 </div>
