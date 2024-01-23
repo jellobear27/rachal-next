@@ -48,6 +48,8 @@ export default function Home() {
       <div className="pb-20"></div>
       <div className="border-b-2"></div>
       <div className="pb-10"></div>
+
+      <a id="services"></a>
       <p className="text-[#4fa3a1] font-bold text-[28px]">
         What Rachal Skeen CPA Can Do For You
       </p>
@@ -123,10 +125,11 @@ export default function Home() {
       <div className="pb-20"></div>
       <div className="border-b-2"></div>
       <div className="pb-10"></div>
+    
+      <a id="client"></a>
       <p className="text-[#4fa3a1] font-bold text-[28px]">For Client-Portal Please Follow Instructions:</p>
       <div class="max-w-2xl mx-auto my-8 p-6 bg-white rounded-lg shadow-md">
     <h2 class="text-2xl font-semibold text-gray-800 mb-4">Secure File Submission via Dropbox</h2>
-
     <div class="mb-6">
         <h3 class="text-xl font-semibold text-gray-700 mb-2">Step 1: Sign Up for Dropbox</h3>
         <p class="text-gray-600 mb-2">To ensure the secure and efficient transfer of your important financial documents, we utilize Dropbox. If you do not have a Dropbox account, follow these steps:</p>

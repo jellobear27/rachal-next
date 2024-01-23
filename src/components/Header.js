@@ -10,19 +10,19 @@ function Header() {
   const [toggle, setToggle] = useState(false);
   const menuList = [
     {
-      title: "HOME",
+      title: "Home",
       link: "/"
     },
     {
-      title: "SERVICES",
-      link: "/services"
+      title: "Services",
+      link: "#services"
     },
     {
-      title: "ClIENT-PORTAL",
-      link: "/client"
+      title: "Client-Hub",
+      link: "#client"
     },
     {
-      title: "CONTACT",
+      title: "Contact",
       link: "/contact"
     },
   ];
