@@ -30,10 +30,10 @@ function Header() {
     <div className="flex items-center justify-between border-b-2">
       <div className="pb-6">
         <Image className="w-20"
-          src="/logo.jpeg" // Assuming your logo is named 'logo.png' and located in the public folder
-          alt="Logo" // Alt text for your logo
-          width={592} // Adjust width as needed
-          height={598} // Adjust height as needed
+          src="/logo.jpeg" 
+          alt="Logo" 
+          width={592} 
+          height={598} 
         />
       </div>
       
