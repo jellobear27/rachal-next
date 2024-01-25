@@ -8,8 +8,8 @@ import {
   HiThumbUp,
   HiShieldCheck,
 } from "react-icons/hi";
+import Link from 'next/link'
 
-import { HelpfulLinks } from "@/components/HelpfulLinks";
 
 export default function Home() {
   return (
@@ -34,9 +34,9 @@ export default function Home() {
           </p>
           <br></br>
           <div className="mt-4">
-            <button className="text-white text-full px-10 pb-2.5 py-2.5 bg-button-gradient rounded-full border-[0.5px] border-black transition duration-200 ease-in-out hover:bg-button-gradient-hover shadow-custom-dark">
+            <Link href="/contact" className="text-white text-full px-10 pb-2.5 py-2.5 bg-button-gradient rounded-full border-[0.5px] border-black transition duration-200 ease-in-out hover:bg-button-gradient-hover shadow-custom-dark">
               Reach Out
-            </button>
+            </Link>
           </div>
         </div>
         <div className="flex justify-center ">
