@@ -18,7 +18,7 @@ export default function Home() {
         <div className="mb-20">
           {" "}
           {/* Adjusted margin */}
-          <p className="text-[#4fa3a1] font-bold text-[30px]">
+          <p className="text-[#4fa3a1] font-bold text-[30px] fade-in-up">
             Your Financial Growth, Personally Guided
           </p>
           <br></br>
@@ -125,52 +125,97 @@ export default function Home() {
       <div className="pb-20"></div>
       <div className="border-b-2"></div>
       <div className="pb-20"></div>
-    
+
       <a id="client"></a>
-      <p className="text-[#4fa3a1] font-bold text-[28px]">For Client-Hub, Please Follow Instructions:</p>
+      <p className="text-[#4fa3a1] font-bold text-[28px]">
+        For Client-Hub, Please Follow Instructions:
+      </p>
       <div className="max-w-2xl mx-auto my-8 p-6 bg-white rounded-lg shadow-md">
-    <h2 className="text-2xl font-semibold text-gray-800 mb-4">Secure File Submission via Dropbox</h2>
-    <div className="mb-6">
-        <h3 className="text-xl font-semibold text-gray-700 mb-2">Step 1: Sign Up for Dropbox</h3>
-        <p className="text-gray-600 mb-2">To ensure the secure and efficient transfer of your important financial documents, we utilize Dropbox. If you do not have a Dropbox account, follow these steps:</p>
-        <ol className="list-decimal list-inside text-[#2a414f] bg-gray-100 rounded p-4">
-            <li>Visit the Dropbox website: <a href="https://www.dropbox.com" className="text-blue-500 hover:text-blue-700">www.dropbox.com</a></li>
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+          Secure File Submission via Dropbox
+        </h2>
+        <div className="mb-6">
+          <h3 className="text-xl font-semibold text-gray-700 mb-2">
+            Step 1: Sign Up for Dropbox
+          </h3>
+          <p className="text-gray-600 mb-2">
+            To ensure the secure and efficient transfer of your important
+            financial documents, we utilize Dropbox. If you do not have a
+            Dropbox account, follow these steps:
+          </p>
+          <ol className="list-decimal list-inside text-[#2a414f] bg-gray-100 rounded p-4">
+            <li>
+              Visit the Dropbox website:{" "}
+              <a
+                href="https://www.dropbox.com"
+                className="text-blue-500 hover:text-blue-700"
+              >
+                www.dropbox.com
+              </a>
+            </li>
             <li>Click on “Sign up” to create a new account.</li>
             <li>Fill in your details and verify your email address.</li>
-        </ol>
-    </div>
+          </ol>
+        </div>
 
-    <div className="mb-6">
-        <h3 className="text-xl font-semibold text-gray-700 mb-2">Step 2: Accessing Our Shared Dropbox Folder</h3>
-        <p className="text-gray-600 mb-2">After creating your account, you will receive an invitation to join a shared Dropbox folder:</p>
-        <ol className="list-decimal list-inside text-[#2a414f] bg-gray-100 rounded p-4">
+        <div className="mb-6">
+          <h3 className="text-xl font-semibold text-gray-700 mb-2">
+            Step 2: Accessing Our Shared Dropbox Folder
+          </h3>
+          <p className="text-gray-600 mb-2">
+            After creating your account, you will receive an invitation to join
+            a shared Dropbox folder:
+          </p>
+          <ol className="list-decimal list-inside text-[#2a414f] bg-gray-100 rounded p-4">
             <li>Check your email for an invitation from Dropbox.</li>
-            <li>Click the invitation link and log in to your Dropbox account.</li>
+            <li>
+              Click the invitation link and log in to your Dropbox account.
+            </li>
             <li>Access the shared folder we've created for you.</li>
-        </ol>
-    </div>
+          </ol>
+        </div>
 
-    <div className="mb-6">
-        <h3 className="text-xl font-semibold text-gray-700 mb-2">Step 3: Uploading Your Documents</h3>
-        <p className="text-gray-600">Drag and drop files into the shared folder or use the “Upload files” button:</p>
-        <ul className="list-disc list-inside text-[#2a414f] bg-gray-100 rounded p-4">
+        <div className="mb-6">
+          <h3 className="text-xl font-semibold text-gray-700 mb-2">
+            Step 3: Uploading Your Documents
+          </h3>
+          <p className="text-gray-600">
+            Drag and drop files into the shared folder or use the “Upload files”
+            button:
+          </p>
+          <ul className="list-disc list-inside text-[#2a414f] bg-gray-100 rounded p-4">
             <li>Ensure that all files are correctly named and organized.</li>
-        </ul>
-    </div>
+          </ul>
+        </div>
 
-    <div className="mb-6">
-        <h3 className="text-xl font-semibold text-gray-700 mb-2">Step 4: Security and Privacy</h3>
-        <p className="text-gray-600">Your data's security and privacy are our top priority. Dropbox uses advanced encryption and security measures to protect your information.</p>
-    </div>
+        <div className="mb-6">
+          <h3 className="text-xl font-semibold text-gray-700 mb-2">
+            Step 4: Security and Privacy
+          </h3>
+          <p className="text-gray-600">
+            Your data's security and privacy are our top priority. Dropbox uses
+            advanced encryption and security measures to protect your
+            information.
+          </p>
+        </div>
 
-    <div>
-        <h3 className="text-xl font-semibold text-gray-700 mb-2">Need Assistance?</h3>
-        <p className="text-gray-600">If you need help with Dropbox, please contact me at <a href="mailto:
-rachalskeencpa@gmail.com" className="text-blue-500 hover:text-blue-700">
-rachalskeencpa@gmail.com</a>.</p>
-    </div>
-</div>
-
+        <div>
+          <h3 className="text-xl font-semibold text-gray-700 mb-2">
+            Need Assistance?
+          </h3>
+          <p className="text-gray-600">
+            If you need help with Dropbox, please contact me at{" "}
+            <a
+              href="mailto:
+rachalskeencpa@gmail.com"
+              className="text-blue-500 hover:text-blue-700"
+            >
+              rachalskeencpa@gmail.com
+            </a>
+            .
+          </p>
+        </div>
+      </div>
     </>
   );
 }
