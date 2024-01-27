@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
             <Header />
           </div>
           {children}
-          <div className="text-center text-[#2a414f] mt-20 sticky">Designed by StrawbieTech 2024</div>
+          <div className="text-center text-[#2a414f] mt-20 sticky">Designed by StrawbieTech 2024 <span className="">🍓</span></div>
         </div>
       </body>
     </html>

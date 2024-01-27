@@ -15,11 +15,11 @@ function Header() {
     },
     {
       title: "Services",
-      link: "#services"
+      link: "/#services"
     },
     {
       title: "Client-Hub",
-      link: "#client"
+      link: "/#client"
     },
     {
       title: "Contact",
@@ -46,7 +46,7 @@ function Header() {
       <div className="hidden md:flex gap-4">
         {menuList.map((item, index) => (
           <div key={index}>
-            <h2 className="md:text-white bg-[#2a5f87] hover:border-[4px] border-[#68f8f8] rounded-full text-[15px] px-3 py-1 cursor-pointer">
+            <h2 className="md:text-white bg-[#2a5f87] hover:border-[4px] border-[#4eaeae] rounded-full text-[15px] px-3 py-1 cursor-pointer">
               <Link href={item.link}>{item.title}</Link>
             </h2>
           </div>
