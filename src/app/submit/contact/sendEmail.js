@@ -21,7 +21,7 @@ import { generateEmail } from "./emailTemplate";
           Data: "New Form Submission",
         },
       },
-      Source: `"KimGordonDesigns.com - Form Submission" <${process.env.FORM_RESPONSE_SEND_AS_EMAIL}>`,
+      Source: `"New Website Form Submission" <${process.env.FORM_RESPONSE_SEND_AS_EMAIL}>`,
       ReplyToAddresses: [
         /* more items */
       ],
