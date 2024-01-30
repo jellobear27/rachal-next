@@ -46,11 +46,11 @@ function page() {
     <div className="text-[#2a5f87]">
       <form className="flex flex-col [&>*]:mt-3 [&>*]:border [&>*]:p-4 w-full" onSubmit={handleSubmit}>
         <div className="font-medium text-3xl">Please complete entire form</div>
-        <input type="text" placeholder="first name here.." />
-        <input type="text" placeholder="last name here.." />
-        <input type="email" placeholder="email  here.." />
-        <input type="phone" placeholder="phone  here.." />
-        <select>
+        <input name="firstName" type="text" placeholder="first name here.." />
+        <input name="lastName" type="text" placeholder="last name here.." />
+        <input name="email" type="email" placeholder="email  here.." />
+        <input name="phone" type="phone" placeholder="phone  here.." />
+        <select name="contactMethod">
           <option value="" disabled selected>
             Preferred Contact Method
           </option>
