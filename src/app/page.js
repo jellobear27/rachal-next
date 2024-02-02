@@ -23,14 +23,14 @@ export default function Home() {
           </p>
           <br></br>
           <p className="text-[#2a414f] text-[19px] font-serif">
-            "Welcome to Rachal Skeen CPA, where personal attention meets
+            Welcome to Rachal Skeen CPA, where personal attention meets
             professional expertise. With 15 years of dedicated experience, I
             specialize in nurturing each client's financial journey with a focus
             on individual needs and lasting relationships. Whether you're
             navigating personal finances or managing a small business, my
             approach is tailored to ensure your financial health and growth. At
             Rachal Skeen CPA, your financial goals are not just numbers; they're
-            the milestones we achieve together."
+            the milestones we achieve together.
           </p>
           <br></br>
           <div className="mt-4">
