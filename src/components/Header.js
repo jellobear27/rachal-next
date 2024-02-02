@@ -48,7 +48,7 @@ function Header() {
           if (item.link.includes("#")) {
             return (
               <div key={index}>
-                <h2 className="md:text-white bg-[#2a5f87] hover:border-[4px] border-[#4eaeae] rounded-full text-[15px] px-3 py-1 cursor-pointer">
+                <h2 className="md:text-white bg-[#2a5f87] border-[4px] hover:border-[#4eaeae] rounded-full text-[15px] px-3 py-1 cursor-pointer">
                   <a href={item.link}>{item.title}</a>
                 </h2>
               </div>
@@ -56,7 +56,7 @@ function Header() {
           } else {
             return (
               <div key={index}>
-                <h2 className="md:text-white bg-[#2a5f87] hover:border-[4px] border-[#4eaeae] rounded-full text-[15px] px-3 py-1 cursor-pointer">
+                <h2 className="md:text-white bg-[#2a5f87] border-[4px] hover:border-[#4eaeae] rounded-full text-[15px] px-3 py-1 cursor-pointer">
                   <Link href={item.link}>{item.title}</Link>
                 </h2>
               </div>
