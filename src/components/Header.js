@@ -1,9 +1,9 @@
-"use client"
+"use client";
 import Image from "next/image";
 import React, { useState } from "react";
 import { HiBars3BottomRight, HiOutlineXMark } from "react-icons/hi2";
 import MenuOverlay from "./MenuOverlay";
-import Link from 'next/link';
+import Link from "next/link";
 
 function Header() {
   const [toggle, setToggle] = useState(false);
@@ -11,19 +11,19 @@ function Header() {
   const menuList = [
     {
       title: "Home",
-      link: "/"
+      link: "/",
     },
     {
       title: "Services",
-      link: "/#services"
+      link: "/#services",
     },
     {
       title: "Client-Hub",
-      link: "/#client"
+      link: "/#client",
     },
     {
       title: "Contact",
-      link: "/contact"
+      link: "/contact",
     },
   ];
 
@@ -42,24 +42,44 @@ function Header() {
           height={598}
         />
       </div>
-      
+
       <div className="hidden md:flex gap-4">
-        {menuList.map((item, index) => (
-          <div key={index}>
-            <h2 className="md:text-white bg-[#2a5f87] hover:border-[4px] border-[#4eaeae] rounded-full text-[15px] px-3 py-1 cursor-pointer">
-              <Link href={item.link}>{item.title}</Link>
-            </h2>
-          </div>
-        ))}
+        {menuList.map((item, index) => {
+          if (item.link.includes("#")) {
+            return (
+              <div key={index}>
+                <h2 className="md:text-white bg-[#2a5f87] hover:border-[4px] border-[#4eaeae] rounded-full text-[15px] px-3 py-1 cursor-pointer">
+                  <a href={item.link}>{item.title}</a>
+                </h2>
+              </div>
+            );
+          } else {
+            return (
+              <div key={index}>
+                <h2 className="md:text-white bg-[#2a5f87] hover:border-[4px] border-[#4eaeae] rounded-full text-[15px] px-3 py-1 cursor-pointer">
+                  <Link href={item.link}>{item.title}</Link>
+                </h2>
+              </div>
+            );
+          }
+        })}
       </div>
 
       <div className="md:hidden">
         {!toggle ? (
-          <HiBars3BottomRight onClick={() => setToggle(!toggle)} className="text-[#2a5f87] text-[22px]" />
+          <HiBars3BottomRight
+            onClick={() => setToggle(!toggle)}
+            className="text-[#2a5f87] text-[22px]"
+          />
         ) : (
-          <HiOutlineXMark onClick={() => setToggle(!toggle)} className="text-[#2a5f87] text-[22px] cursor-pointer" />
+          <HiOutlineXMark
+            onClick={() => setToggle(!toggle)}
+            className="text-[#2a5f87] text-[22px] cursor-pointer"
+          />
         )}
-        {toggle ? <MenuOverlay menuList={menuList} onMenuClick={toggleMenu} /> : null}
+        {toggle ? (
+          <MenuOverlay menuList={menuList} onMenuClick={toggleMenu} />
+        ) : null}
       </div>
     </div>
   );
