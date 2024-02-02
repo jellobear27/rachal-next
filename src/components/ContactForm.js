@@ -50,10 +50,10 @@ function ContactForm() {
       <div className="font-medium text-3xl">
         Please complete entire form
       </div>
-      <input name="firstName" type="text" placeholder="first name here.." />
-      <input name="lastName" type="text" placeholder="last name here.." />
-      <input name="email" type="email" placeholder="email  here.." />
-      <input name="phone" type="phone" placeholder="phone  here.." />
+      <input name="firstName" type="text" placeholder="First Name" />
+      <input name="lastName" type="text" placeholder="Last Name" />
+      <input name="email" type="email" placeholder="Email" />
+      <input name="phone" type="phone" placeholder="Cell/Phone Number" />
       <select name="contactMethod">
         <option value="" disabled selected>
           Preferred Contact Method
