@@ -66,7 +66,7 @@ export default function Home() {
           <HiClipboardCheck size={60} color="#4fa3a1" />
           <div className="ml-4">
             <p className="text-[#2a414f] text-[20px] font-bold">
-              Income tax preparation for:
+              Income tax preparation for
             </p>
             <p className="text-[#2a414f]">
               Individuals, Partnerships,
