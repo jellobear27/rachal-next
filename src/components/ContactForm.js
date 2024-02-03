@@ -50,6 +50,25 @@ function ContactForm() {
       <div className="font-medium text-3xl">
         Schedule a Consultaion
       </div>
+      <style jsx>{`
+        input, select {
+          padding: 16px; /* Thick padding */
+          margin-bottom: 8px; /* Space between fields */
+          border: 4px solid #ccc; /* Subtle border */
+          background-color: #f0f0f0; /* Placeholder color, replace with your choice */
+        }
+        button {
+          padding: 16px;
+          background-color: slate-600;
+          color: white;
+          border: none;
+          cursor: pointer;
+          margin-top: 8px;
+        }
+        button:disabled {
+          background-color: #999;
+        }
+      `}</style>
       <input name="firstName" type="text" placeholder="First Name" />
       <input name="lastName" type="text" placeholder="Last Name" />
       <input name="email" type="email" placeholder="Email" />
