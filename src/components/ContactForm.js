@@ -48,7 +48,7 @@ function ContactForm() {
       onSubmit={handleSubmit}
     >
       <div className="font-medium text-3xl">
-        Please complete entire form
+        Schedule a Consultaion
       </div>
       <input name="firstName" type="text" placeholder="First Name" />
       <input name="lastName" type="text" placeholder="Last Name" />
