@@ -14,6 +14,10 @@ function Header() {
       link: "/",
     },
     {
+      title: "About",
+      link: "/about",
+    },
+    {
       title: "Services",
       link: "/#services",
     },
@@ -43,7 +47,7 @@ function Header() {
         />
       </div>
 
-      <div className="hidden md:flex gap-4">
+      <div className="hidden md:flex gap-0.5">
         {menuList.map((item, index) => {
           if (item.link.includes("#")) {
             return (

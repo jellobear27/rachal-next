@@ -8,8 +8,7 @@ import {
   HiThumbUp,
   HiShieldCheck,
 } from "react-icons/hi";
-import Link from 'next/link'
-
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -34,7 +33,10 @@ export default function Home() {
           </p>
           <br></br>
           <div className="mt-4">
-            <Link href="/contact" className="text-white text-full px-10 pb-2.5 py-2.5 bg-button-gradient rounded-full border-[0.5px] border-black transition duration-200 ease-in-out hover:bg-button-gradient-hover shadow-custom-dark">
+            <Link
+              href="/contact"
+              className="text-white text-full px-10 pb-2.5 py-2.5 bg-button-gradient rounded-full border-[0.5px] border-black transition duration-200 ease-in-out hover:bg-button-gradient-hover shadow-custom-dark"
+            >
               Reach Out
             </Link>
           </div>
@@ -64,29 +66,26 @@ export default function Home() {
           <HiClipboardCheck size={60} color="#4fa3a1" />
           <div className="ml-4">
             <p className="text-[#2a414f] text-[20px] font-bold">
-              Personal Tax Returns
+              Income tax preparation for:
             </p>
             <p className="text-[#2a414f]">
-              I prepare and file your tax returns <br />
-              tying together all your income <br />
-              sources through an open discussion
+              Individuals, Partnerships,
+              <br></br>Limited Liability Companies,<br></br> Corporations,
+              Estates and Trust <br></br>
             </p>
           </div>
         </div>
         {/* Second icon-text pair */}
         <div className="flex items-center">
-          <HiOutlineCurrencyDollar size={60} color="#4fa3a1" />
+          <HiOutlineCurrencyDollar size={100} color="#4fa3a1" />
           <div className="ml-4">
-            <p className="text-[#2a414f] text-[20px] font-bold">
-              Competitive Rates
-            </p>
+            <p className="text-[#2a414f] text-[20px] font-bold">Tax Planning</p>
             <p className="text-[#2a414f]">
-              I understand the value of your <br />
-              hard-earned money which is
+              I understand the value of your time
               <br />
-              why I've structured my pricing to <br />
-              ensure you receive top-notch <br />
-              service without overstretching your budget.
+              And the need to get your tax's done promptly, so you so
+              you can focus on your daily routine
+              <br />
             </p>
           </div>
         </div>
@@ -95,13 +94,10 @@ export default function Home() {
           <HiThumbUp size={60} color="#4fa3a1" />
           <div className="ml-4">
             <p className="text-[#2a414f] text-[20px] font-bold">
-              CPA Prepared from Beginning to End
+            Sales Tax filings
             </p>
             <p className="text-[#2a414f]">
-              As a CPA I don't just crunch numbers <br />
-              I bring a wealth of experience and strategic <br />
-              insight, ensuring that every financial decision <br />
-              is informed, compliant, and tailored to your unique goals.
+            Specializing in Quarterly payroll reports including W-2's
             </p>
           </div>
         </div>
@@ -110,14 +106,13 @@ export default function Home() {
           <HiShieldCheck size={60} color="#4fa3a1" />
           <div className="ml-4">
             <p className="text-[#2a414f] text-[20px] font-bold">
-              File a Return with Accuracy and Confidence
+            Support Services
             </p>
             <p className="text-[#2a414f]">
-              Entrust your finances to me, <br />
-              and experience the peace of mind that <br />
-              comes from knowing your financial matters <br />
-              are in the hands of a seasoned professional <br />
-              who's committed to excellence in every detail
+            Quarterly or annual review of books, <br />
+            Full-service bookkeeping, <br />
+            Monthly reconciliations, <br />
+            Financial Statement Preparation <br />
             </p>
           </div>
         </div>
