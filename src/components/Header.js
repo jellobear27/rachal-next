@@ -22,7 +22,7 @@ function Header() {
       link: "/#services",
     },
     {
-      title: "Client-Hub",
+      title: "Client-Info",
       link: "/#client",
     },
     {

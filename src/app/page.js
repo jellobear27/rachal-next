@@ -123,7 +123,7 @@ export default function Home() {
 
       <a id="client"></a>
       <p className="text-[#4fa3a1] font-bold text-[28px]">
-        For Client-Hub, Please Follow Instructions:
+        To Send Client-Info, Please Follow Instructions:
       </p>
       <div className="max-w-2xl mx-auto my-8 p-6 bg-white rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">
