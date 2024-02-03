@@ -24,7 +24,7 @@ function about() {
 
         In 2012, with a desire to root my growing family in a nurturing environment, I returned to Kearney. This move marked a significant milestone in my personal and professional life, leading to the establishment of Rachal Skeen CPA in 2018. My firm is a testament to my dedication to serving the Kearney community with integrity, precision, and a personalized approach to accounting.
 
-        I am deeply committed to the prosperity of our community and the success of its members. With a decade-long career in accounting and taxation, I bring a wealth of knowledge, experience, and a passion for fostering financial empowerment. At Rachal Skeen CPA, we look forward to continuing our contribution to the community's growth and wellbeing for many years to come.
+        I am deeply committed to the prosperity of our community and the success of its members. With a decade-long career in accounting and taxation, I bring a wealth of knowledge, experience, and a passion for fostering financial empowerment. At Rachal Skeen CPA, I look forward to continuing my contribution to the community's growth and wellbeing for many years to come.
       </p>
     </div>
   );
