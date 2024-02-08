@@ -7,7 +7,7 @@ function page() {
 
   return (
     <ReCaptchaProvider reCaptchaKey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}>
-      <p>{NEXT_PUBLIC_RECAPTCHA_SITE_KEY}</p>
+      <p>{process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}</p>
       <ContactForm />
     </ReCaptchaProvider>
   );
