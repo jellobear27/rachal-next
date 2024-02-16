@@ -35,7 +35,7 @@ export async function POST(request) {
 
     const data = await response.json();
 
-    if (data.success === true && data.score >= 0.3) {
+    if (data.success === true && data.score >= 0.5) {
       await sendEmail(reqFormData);
       return new Response("Success", {
         status: 200,
