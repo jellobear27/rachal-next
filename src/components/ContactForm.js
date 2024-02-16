@@ -50,11 +50,12 @@ function ContactForm() {
         <div className="font-medium text-3xl">Schedule a Consultaion</div>
         <style jsx>{`
           input,
+          textarea,
           select {
             padding: 16px; /* Thick padding */
             margin-bottom: 8px; /* Space between fields */
             border: 4px solid #ccc; /* Subtle border */
-            background-color: #f0f0f0; /* Placeholder color, replace with your choice */
+            background-color: #f0f0f0;
           }
           button {
             padding: 16px;
@@ -72,6 +73,11 @@ function ContactForm() {
         <input name="lastName" type="text" placeholder="Last Name" />
         <input name="email" type="email" placeholder="Email" />
         <input name="phone" type="phone" placeholder="Cell/Phone Number" />
+        <textarea 
+          name="services"
+          placeholder="Briefly tell me how I can help you:"
+          required
+        ></textarea>
         <select name="contactMethod">
           <option value="" disabled selected>
             Preferred Contact Method
