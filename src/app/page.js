@@ -42,7 +42,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex justify-center ">
-          <div className="h-[320px] w-[250px] p-2 rounded-[20px] bg-gradient-to-b from-white to-">
+          <div className="h-[320px] w-[250px] p-2 rounded-[20px] bg-gradient-to-b from-[#333333] to-white">
             <DotLottiePlayer src={animationData} autoplay loop />
           </div>
         </div>

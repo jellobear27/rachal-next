@@ -9,11 +9,8 @@ function Header() {
   const [toggle, setToggle] = useState(false);
 
   const menuList = [
-    {
-      title: "Home",
-      link: "/",
-    },
-    {
+  
+   {
       title: "About",
       link: "/about",
     },
