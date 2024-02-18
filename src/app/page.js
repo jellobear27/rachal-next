@@ -2,6 +2,8 @@
 import Image from "next/image";
 import { DotLottiePlayer, Controls } from "@dotlottie/react-player";
 import animationData from "@/assets/lottie.json";
+import newAnimationData from "@/assets/lottie2.json";
+
 import {
   HiClipboardCheck,
   HiOutlineCurrencyDollar,
@@ -17,19 +19,19 @@ export default function Home() {
         <div className="mb-20">
           {" "}
           {/* Adjusted margin */}
-          <p className="text-[#4fa3a1] font-bold text-[30px] fade-in-up">
+          <p className="text-[#4fa3a1] font-bold text-[38px] fade-in-up">
             Your Financial Growth, Personally Guided
           </p>
           <br></br>
-          <p className="text-[#2a414f] text-[19px] font-serif">
-            Welcome to Rachal Skeen CPA, where personal attention meets
-            professional expertise. With 15 years of dedicated experience, I
-            specialize in nurturing each client's financial journey with a focus
-            on individual needs and lasting relationships. Whether you're
-            navigating personal finances or managing a small business, my
-            approach is tailored to ensure your financial health and growth. At
+          <p className="text-[#2a414f] text-[20px] font-serif">
+            Welcome to Rachal Skeen CPA, where I combine personalized service 
+            with expert knowledge. With over 15 years of experience, I'm 
+            here to guide you through every step of your financial journey,
+            focusing on your unique needs and building long-lasting relationships.
+            Whether you're dealing with personal finances or running a small buisiness,
+            I tailor my approach to help you maintain and grow your finances. At
             Rachal Skeen CPA, your financial goals are not just numbers; they're
-            the milestones we achieve together.
+            achievements we reach together.
           </p>
           <br></br>
           <div className="mt-4">
@@ -83,8 +85,8 @@ export default function Home() {
             <p className="text-[#2a414f]">
               I understand the value of your time
               <br />
-              And the need to get your tax's done promptly, so you so
-              you can focus on your daily routine
+              And the need to get your tax's done promptly, so you so you can
+              focus on your daily routine
               <br />
             </p>
           </div>
@@ -94,10 +96,10 @@ export default function Home() {
           <HiThumbUp size={60} color="#4fa3a1" />
           <div className="ml-4">
             <p className="text-[#2a414f] text-[20px] font-bold">
-            Sales Tax filings
+              Sales Tax filings
             </p>
             <p className="text-[#2a414f]">
-            Specializing in Quarterly payroll reports including W-2's
+              Specializing in Quarterly payroll reports including W-2's
             </p>
           </div>
         </div>
@@ -106,13 +108,13 @@ export default function Home() {
           <HiShieldCheck size={60} color="#4fa3a1" />
           <div className="ml-4">
             <p className="text-[#2a414f] text-[20px] font-bold">
-            Support Services
+              Support Services
             </p>
             <p className="text-[#2a414f]">
-            Quarterly or annual review of books, <br />
-            Full-service bookkeeping, <br />
-            Monthly reconciliations, <br />
-            Financial Statement Preparation <br />
+              Quarterly or annual review of books, <br />
+              Full-service bookkeeping, <br />
+              Monthly reconciliations, <br />
+              Financial Statement Preparation <br />
             </p>
           </div>
         </div>
@@ -121,8 +123,14 @@ export default function Home() {
       <div className="border-b-2"></div>
       <div className="pb-20"></div>
 
+      <div className="flex justify-center ">
+        <div className="h-40px w-40 p-2">
+          <DotLottiePlayer src={newAnimationData} autoplay loop />
+        </div>
+      </div>
+
       <a id="client"></a>
-      <p className="text-[#4fa3a1] font-bold text-[28px]">
+      <p className="flex justify-center text-[#4fa3a1] font-bold text-[28px]">
         To Send Client-Info, Please Follow Instructions:
       </p>
       <div className="max-w-2xl mx-auto my-8 p-6 bg-white rounded-lg shadow-md">
