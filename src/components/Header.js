@@ -37,17 +37,20 @@ function Header() {
 
   return (
     <div className="flex items-center justify-between border-b-2">
-      <div className="pb-6">
+      <div className="pb-24">
+        <Link href="/">
         <Image
-          className="w-20"
+          className="flex fixed w-20 border-[4px] hover:border-[#4eaeae]"
           src="/logo.jpeg"
           alt="Logo"
           width={592}
           height={598}
         />
+        </Link>
+      
       </div>
 
-      <div className="hidden md:flex gap-0.5">
+      <div className="hidden md:flex gap-1.5">
         {menuList.map((item, index) => {
           if (item.link.includes("#")) {
             return (
