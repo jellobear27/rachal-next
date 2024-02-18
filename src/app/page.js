@@ -64,7 +64,7 @@ export default function Home() {
         {" "}
         {/* Use grid layout for responsiveness */}
         {/* First icon-text pair */}
-        <div className="flex items-center">
+        <div className="flex items-center shadow-custom-dark">
           <HiClipboardCheck size={60} color="#4fa3a1" />
           <div className="ml-4">
             <p className="text-[#2a414f] text-[20px] font-bold">
@@ -78,33 +78,34 @@ export default function Home() {
           </div>
         </div>
         {/* Second icon-text pair */}
-        <div className="flex items-center">
-          <HiOutlineCurrencyDollar size={100} color="#4fa3a1" />
+        <div className="flex items-center shadow-custom-dark">
+          <HiOutlineCurrencyDollar size={140} color="#4fa3a1" />
           <div className="ml-4">
             <p className="text-[#2a414f] text-[20px] font-bold">Tax Planning</p>
             <p className="text-[#2a414f]">
               I understand the value of your time
               <br />
-              And the need to get your tax's done promptly, so you so you can
-              focus on your daily routine
+              & the need to get your tax's done promptly while
+               you focus on your day to day rest assured you're in good hands
               <br />
             </p>
           </div>
         </div>
         {/* Third icon-text pair */}
-        <div className="flex items-center">
+        <div className="flex items-center shadow-custom-dark">
           <HiThumbUp size={60} color="#4fa3a1" />
           <div className="ml-4">
             <p className="text-[#2a414f] text-[20px] font-bold">
-              Sales Tax filings
+              Sales Tax & Payroll
             </p>
             <p className="text-[#2a414f]">
-              Specializing in Quarterly payroll reports including W-2's
+              Monthly & Quartly filings,<br>
+              </br>including W-2's
             </p>
           </div>
         </div>
         {/* Fourth icon-text pair */}
-        <div className="flex items-center">
+        <div className="flex items-center shadow-custom-dark">
           <HiShieldCheck size={60} color="#4fa3a1" />
           <div className="ml-4">
             <p className="text-[#2a414f] text-[20px] font-bold">

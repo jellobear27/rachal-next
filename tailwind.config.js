@@ -15,7 +15,7 @@ module.exports = {
 
       },
       boxShadow: {
-        'custom-dark': '0 6px 8px -1px rgba(0, 0, 0, 0.7), 0 4px 8px -1px rgba(0, 0, 0, 0.7)',
+        'custom-dark': '0 6px 8px -1px rgba(0, 0, 0, 0.1), 0 4px 8px -1px rgba(0, 0, 0, 0.7)',
       },
     },
   },
