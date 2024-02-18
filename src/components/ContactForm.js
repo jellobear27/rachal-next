@@ -93,7 +93,7 @@ function ContactForm() {
         />
         <button
           type="submit"
-          className="bg-slate-600 text-white"
+          className="text-white text-full px-10 pb-2.5 py-2.5 bg-button-gradient border-[0.5px] border-black transition duration-200 ease-in-out hover:bg-button-gradient-hover shadow-custom-dark"
           disabled={isLoading || requestSuccess}
         >
           Submit
