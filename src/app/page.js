@@ -96,11 +96,11 @@ export default function Home() {
           <HiThumbUp size={60} color="#4fa3a1" />
           <div className="ml-4">
             <p className="text-[#2a414f] text-[20px] font-bold">
-              Sales Tax & Payroll
+              Sales tax & payroll
             </p>
             <p className="text-[#2a414f]">
-              Monthly & Quartly filings,<br>
-              </br>including W-2's
+              Monthly & quartly filings,<br>
+              </br>Including W-2's
             </p>
           </div>
         </div>
@@ -115,7 +115,7 @@ export default function Home() {
               Quarterly or annual review of books, <br />
               Full-service bookkeeping, <br />
               Monthly reconciliations, <br />
-              Financial Statement Preparation <br />
+              Financial statement preparation <br />
             </p>
           </div>
         </div>
