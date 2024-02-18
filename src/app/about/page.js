@@ -13,7 +13,7 @@ function about() {
         height={488}
       />
       <div className="my-6"></div>
-      <p className="text-[#4fa3a1] font-bold  text-[28px]">
+      <p className="flex justify-center text-[#4fa3a1] font-bold  text-[28px]">
         Get to Know Rachal
       </p>
       <div className="my-6"></div>

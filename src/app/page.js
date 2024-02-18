@@ -24,11 +24,11 @@ export default function Home() {
           </p>
           <br></br>
           <p className="text-[#2a414f] text-[20px] font-serif">
-            Welcome to Rachal Skeen CPA, where I combine personalized service 
-            with expert knowledge. With over 15 years of experience, I'm 
-            here to guide you through every step of your financial journey,
-            focusing on your unique needs and building long-lasting relationships.
-            Whether you're dealing with personal finances or running a small buisiness,
+            Welcome to Rachal Skeen CPA, where I combine personalized service
+            with expert knowledge. With over 15 years of experience, I'm here to
+            guide you through every step of your financial journey, focusing on
+            your unique needs and building long-lasting relationships. Whether
+            you're dealing with personal finances or running a small buisiness,
             I tailor my approach to help you maintain and grow your finances. At
             Rachal Skeen CPA, your financial goals are not just numbers; they're
             achievements we reach together.
@@ -54,7 +54,7 @@ export default function Home() {
       <div className="pb-20"></div>
 
       <a id="services"></a>
-      <p className="text-[#4fa3a1] font-bold text-[28px]">
+      <p className="flex justify-center text-[#4fa3a1] font-bold text-[28px]">
         What Rachal Skeen CPA Can Do For You
       </p>
       <br></br>
@@ -123,13 +123,13 @@ export default function Home() {
       <div className="border-b-2"></div>
       <div className="pb-20"></div>
 
+      <a id="client"></a>
       <div className="flex justify-center ">
         <div className="h-40px w-40 p-2">
           <DotLottiePlayer src={newAnimationData} autoplay loop />
         </div>
       </div>
 
-      <a id="client"></a>
       <p className="flex justify-center text-[#4fa3a1] font-bold text-[28px]">
         To Send Client-Info, Please Follow Instructions:
       </p>
@@ -215,10 +215,30 @@ rachalskeencpa@gmail.com"
             >
               rachalskeencpa@gmail.com
             </a>
-            .
           </p>
         </div>
       </div>
-    </>
+      <div className="pb-20"></div>
+      <div className="border-b-2"></div>
+      <div className="pb-10"></div>
+      <div className="mt-8">
+        <div className="font-medium text-[#2a5f87] text-xl">Our Address and Hours</div>
+        <p>
+          <a
+            href="https://maps.app.goo.gl/eyVUeUn51LKSG5TL8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:text-blue-700"
+          >
+            2202 Central Ave, Ste 7 68847
+          </a>
+        </p>
+        <p className="text-[#2a5f87] font-bold">Tax Season Hours:</p>
+        <p className="text-[#2a5f87]">Tuesday - Saturday: 9:00 AM - 6:00 PM</p>
+        <p className="text-[#2a5f87]">Sunday & Monday: Closed</p>
+        <p className="text-[#2a5f87] font-bold">Non Tax Season: by appointment only</p>
+      </div>
+      </>
+      
   );
 }
