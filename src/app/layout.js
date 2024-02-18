@@ -8,7 +8,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Rachal Skeen CPA",
-  description: "A CPA landing page",
+  description: "Nebraska CPA",
 };
 
 export default function RootLayout({ children }) {
