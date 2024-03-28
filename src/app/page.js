@@ -54,10 +54,10 @@ export default function Home() {
       <div className="pb-20"></div>
 
       <a id="services"></a>
-      <p className="flex justify-center text-[#4fa3a1] font-bold text-[28px]">
-        What Rachal Skeen CPA Can Do For You
+      <p className="flex flexbox justify-center text-[#4fa3a1] font-bold text-[30px]">
+        What Rachal Can Do For You
       </p>
-      <br></br>
+      <div className="pb-20"></div>
 
       <div className="mt-4"></div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -122,7 +122,7 @@ export default function Home() {
       </div>
       <div className="pb-20"></div>
       <div className="border-b-2"></div>
-      <div className="pb-20"></div>
+      <div className="pb-40"></div>
 
       <a id="client"></a>
       <div className="flex justify-center ">
