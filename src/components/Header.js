@@ -39,7 +39,7 @@ function Header() {
         <Image
           className="flex fixed w-20 border-[4px] hover:border-[#4eaeae]"
           src="/logo.jpeg"
-          alt="Logo"
+          alt="Logo" priority
           width={592}
           height={598}
         />
