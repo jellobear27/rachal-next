@@ -15,12 +15,38 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
+        {/* Marquee Effect */}
+        <div className="overflow-hidden bg-gray-100 py-2 relative">
+        <div className="marquee-wrapper">
+          <div className="marquee whitespace-nowrap flex">
+            <span className="text-lg font-bold text-[#4fa3a1] mx-8">
+              🌟 Welcome to Rachal Skeen CPA! 🌟 Your Trusted Tax & Accounting Partner in Nebraska 🌟
+            </span>
+            <span className="text-lg font-bold text-[#4fa3a1] mx-8">
+              🌟 Over 15 Years of Experience! 🌟 Personal & Small Business Services! 🌟
+            </span>
+            <span className="text-lg font-bold text-[#4fa3a1] mx-8">
+              🌟 Reliable, Efficient, and Personal Service! 🌟
+            </span>
+            {/* Repeat the same content for a seamless loop */}
+            <span className="text-lg font-bold text-[#4fa3a1] mx-8">
+              🌟 Welcome to Rachal Skeen CPA! 🌟 Your Trusted Tax & Accounting Partner in Nebraska 🌟
+            </span>
+            <span className="text-lg font-bold text-[#4fa3a1] mx-8">
+              🌟 Over 15 Years of Experience! 🌟 Personal & Small Business Services! 🌟
+            </span>
+            <span className="text-lg font-bold text-[#4fa3a1] mx-8">
+              🌟 Reliable, Efficient, and Personal Service! 🌟
+            </span>
+          </div>
+        </div>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 pt-10 items-center">
         <div className="mb-20">
           {" "}
           {/* Adjusted margin */}
           <p className="text-[#4fa3a1] font-bold text-[38px] fade-in-up">
-            Your Financial Growth, Personally Guided
+          Your Trusted Nebraska Neighbor for All Things Tax and Accounting!
           </p>
           <br></br>
           <p className="text-[#2a414f] text-[20px] font-serif">

@@ -41,3 +41,22 @@ body {
 .fade-in-up {
   animation: fadeInUp 1.5s ease-out;
 }
+
+/* Add this CSS to your global styles or a separate CSS file */
+
+/* Animation to scroll continuously */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.marquee-wrapper {
+  display: flex;
+  overflow: hidden;
+}
+
+.marquee {
+  display: flex;
+  min-width: 200%; /* Double the content width to ensure smooth loop */
+  animation: marquee 30s linear infinite;
+}
